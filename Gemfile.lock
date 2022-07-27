@@ -1,0 +1,26 @@
+GIT
+  remote: https://github.com/RadPad/swagger-ui_rails.git
+  revision: 7234e21e621b628d6b43194f9ba5cce5ca587f16
+  specs:
+    swagger-ui_rails (0.1.7)
+
+PATH
+  remote: vendor/pathgem
+  specs:
+    pathgem (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    zeitwerk (2.6.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  pathgem!
+  swagger-ui_rails!
+  zeitwerk
+
+BUNDLED WITH
+   2.2.33
