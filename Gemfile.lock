@@ -1,3 +1,10 @@
+
+GIT
+  remote: https://github.com/tichavskym/cachito-rubygems-without-deps.git
+  revision: 99477ba6df7fb744c456589af2c517972e9cb20e
+  specs:
+    my-package (1.0.0)
+
 GIT
   remote: https://github.com/RadPad/swagger-ui_rails.git
   revision: 7234e21e621b628d6b43194f9ba5cce5ca587f16
@@ -19,6 +26,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  my-package!
   pathgem!
   swagger-ui_rails!
   zeitwerk
